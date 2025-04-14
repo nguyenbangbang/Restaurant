@@ -175,7 +175,6 @@
             // txtImage
             // 
             this.txtImage.FillColor = System.Drawing.Color.Black;
-            this.txtImage.Image = global::Restaurant.Properties.Resources.Screenshot_2025_03_25_162806;
             this.txtImage.ImageRotate = 0F;
             this.txtImage.Location = new System.Drawing.Point(611, 200);
             this.txtImage.Name = "txtImage";

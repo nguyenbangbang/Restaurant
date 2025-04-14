@@ -36,7 +36,7 @@ namespace Restaurant.Model
             if (id>0)
             {
                 ForUpdateLoadData();
-        }
+            }
 
         }
         string filePath;
@@ -63,7 +63,7 @@ namespace Restaurant.Model
             else//update
             {
                 qry = "Update products set pName=@Name, pPrice=@price, CategoryID=@cat, pImage=@img where pID=@id";
-
+    
             }
             //For image
             Image temp = new Bitmap(txtImage.Image);
@@ -93,7 +93,7 @@ namespace Restaurant.Model
                 cbCat.SelectedIndex = -1;
 
                 //????
-                txtImage.Image = Restaurant.Properties.Resources.Screenshot_2025_03_25_162806;
+                //txtImage.Image = Restaurant.Properties.Resources.Screenshot_2025_03_25_162806;
                 txtNameadd.Focus();
             }
 
