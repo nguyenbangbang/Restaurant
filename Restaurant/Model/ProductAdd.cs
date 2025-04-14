@@ -93,7 +93,7 @@ namespace Restaurant.Model
                 cbCat.SelectedIndex = -1;
 
                 //????
-                txtImage.Image = Restaurant.Properties.Resources.user1;
+                txtImage.Image = Restaurant.Properties.Resources.Screenshot_2025_03_25_162806;
                 txtNameadd.Focus();
             }
 
